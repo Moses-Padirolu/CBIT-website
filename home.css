@@ -1,0 +1,271 @@
+
+.background{
+    height:100vh; 
+    background:transparent;
+}
+
+.homepage{
+    border-radius: 20px;
+    z-index: 999;
+    width:100%;
+    /* height: 500vh; */
+    background-color: rgb(255, 255, 255);
+}
+
+.placementheading{
+    border-radius: 10px;
+    width:100%;
+    height: 10vh;
+    font-family:'Poppins';
+    font-size:xx-large;
+    /* letter-spacing: 2px; */
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color:rgb(18, 18, 18);
+}
+
+.placementcontainer{
+    height:100vh;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placementboxs{
+    height: 90vh;
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows: minmax(80px,auto);
+    background-color:rgb(255, 255, 255);
+    grid-auto-flow: dense;
+    grid-gap:30px;
+    transition: 0.5s;
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+}
+
+.placementbox{
+    overflow: hidden;
+    color:black;
+    border-radius: 2px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: -3px 4px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.placementbox:hover{
+    color:rgb(226, 15, 15);
+}
+
+.placementbox:nth-child(1){
+    grid-column:span 2;
+    grid-row:span 1;
+}
+
+.placementbox:nth-child(6){
+    grid-column:span 2;
+    grid-row:span 1;
+}
+
+.placementimage1{
+    
+    height: 100%;
+    background-image:url("https://www.cbit.ac.in/wp-content/uploads/2021/03/CBIT-2020-21-Rankings.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.placementimage6{
+    height: 100%;
+    background-image:url("https://www.cbit.ac.in/wp-content/uploads/2022/07/Microsoft-min-scaled.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.placementimage2{
+    width:auto;
+    height: 60%;
+    background-image:url("https://jspmjscoe.edu.in/storage/Placement/entc/statistics/Statistics-2018-19.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.placementimage3{
+    width:auto;
+    height: 60%;
+    background-image:url("https://www.cbit.ac.in/wp-content/uploads/2019/03/Graph-From-2001-02-to-2019-20.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.placementimage4{
+    width:100%;
+    height:100%;
+    background-image:url("https://cbit.edu.in/userfiles/PLACEMENTS-432.jpeg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.placementimage5{
+    width:100%;
+    height:60%;
+    background-image:url("https://cbit.ac.in/wp-content/uploads/2021/12/cseplacements_sal.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.placementinfo{
+    font-size:large;
+    padding-left: 10px;
+    padding-top:10px;
+}
+
+.recruiter{
+    width:100%;
+    height:120vh;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recruitercontainer{
+    width:90%;
+    height:110vh;
+    background-color: whitesmoke;
+}
+
+.recruiterbox1{
+    width:100%;
+    height:50%;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows: minmax(80px,auto);
+    background-color:rgb(255, 255, 255);
+    grid-auto-flow: dense;
+    grid-gap:30px;
+    transition: 0.5s;
+}
+
+.recruiterbox{
+    width:100%;
+    height:80%;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(100%,1fr));
+    grid-template-rows: minmax(10%,auto);
+    background-color:whitesmoke;
+    grid-auto-flow: dense;
+    grid-gap:30px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 8px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 2px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 8px 0px rgba(0,0,0,0.75);
+}
+
+.recruiterboxsub{
+    padding-top:30px;
+    padding-bottom:20px;
+    background-color: whitesmoke;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid rgb(186, 192, 186);
+}
+
+.recruiterbox:hover{
+    color:green;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  height: 100px;
+  width: 100px;
+  font-size: 100px;
+  background-color: rgb(226, 221, 221);
+  border-radius: 50%;
+}
+
+.recruiterbox2{
+    padding-top:30px;
+    text-align: center;
+    background-color: white;
+}
+
+.row{
+    padding-top: 30px;
+    width:150%;
+    display: flex;
+    /* align-items: center; */
+    justify-content:space-around;
+}
+
+.marquebox{
+    width:300px;
+    margin-left:10px;
+    height:200px;
+    box-shadow: -2px 8px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 8px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 8px 5px 0px rgba(0,0,0,0.75);
+}
+
+.marquebox:nth-child(1){
+    background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWCZER?ver=1433&q=90&m=6&h=195&w=348&b=%23FFFFFFFF&l=f&o=t&aim=true");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.marquebox:nth-child(2){
+    background-image: url("https://img.etimg.com/thumb/msid-59738992,width-640,resizemode-4,imgsize-25499/amazon.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.marquebox:nth-child(3){
+    background-image: url("https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.marquebox:nth-child(4){
+    background-image: url("https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.marquebox:nth-child(5){
+    background-image: url("https://thelogofinder.com/wp-content/uploads/edd/2021/10/bank-of-america-4.svg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.marquebox:nth-child(6){
+    background-image: url("https://www.economy-ni.gov.uk/sites/default/files/styles/inline-expandable/public/images/economy/news/deloitte-logo-600-400.png?itok=ZABwDoYP&timestamp=1629104811");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.marquebox:nth-child(7){
+    background-image: url("https://i0.wp.com/fontlot.com/wp-content/uploads/2021/08/5fbe188385f8821300712c9e.jpg?fit=801%2C534&ssl=1");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}

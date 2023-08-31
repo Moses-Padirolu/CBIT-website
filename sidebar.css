@@ -1,0 +1,143 @@
+body{
+    background-color: whitesmoke;
+}
+
+.sidebar{
+    z-index: -1;
+    height:calc(100vh - 20px);
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    display:flex;
+    align-items: center;
+    margin-top: 60px;
+    position: fixed;
+}
+
+.side{
+    overflow-y: scroll;
+    height: 100%;
+    flex:2.4;
+}
+
+.middle{
+    height: 100%;
+    flex:6.5;
+    background-color:whitesmoke;
+}
+
+.right{
+    flex:2.5;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.rightcontainerbox1{
+    box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+    height: 300px;
+    width:100%;
+    background-color: white;
+}
+.rightcontainer{
+    width: 90%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.announcement{
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    background-color: green;
+    display: flex;
+}
+
+.announcementicon{
+    color:white;
+    margin-right: 10px;
+}
+
+.rightinfo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:rgb(180, 179, 179) ;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 0, 0,0.7);
+}
+
+.sidebarimagebox{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sidebarimage{
+    margin-right: 40px;
+    height: 90%;
+    width: 40%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/6/68/Chaitanya_Bharathi_Institute_of_Technology_logo.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:contain;
+    box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.sidebarwrapper{
+
+    padding-top: 20px;
+    padding-left: 60px;
+    background-color: white;
+}
+
+.sidebarlist{
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    background-color: white;
+}
+
+.sidebarlistitem{
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.sidebarlistitemtext{
+    color:green;
+    font-size:16px;
+    font-weight: 500;
+    transition:all .3s ease;
+}
+
+.sidebarlistitemtext:hover{
+    padding-left: 8px;
+    color:red;
+}
+
+.sidebaricon{
+    font-size: 20px;
+    margin-right: 10px;
+    /* padding-top: 4px; */
+}
+
+.iconscontainer{
+    display: flex;
+}

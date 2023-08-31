@@ -1,0 +1,190 @@
+
+.csidebar{
+    position:absolute;
+    height:calc(100vh - 50px);
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    display:flex;
+    align-items: center;
+    margin-top:20px;
+}
+
+.ctransparent{
+    height:40px;
+}
+
+.cside{
+    overflow-y: scroll;
+    height: 100%;
+    flex:1.7;
+    background-color: white;
+}
+
+.cmiddle{
+    height: 100%;
+    flex:7;
+    background-color:whitesmoke;
+}
+
+.cright{
+    flex:2.7;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.crightcontainer1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.crightcontainerleft{
+    width:47%;
+    padding:2% 5%;
+    background-color: white;
+}
+
+.crightcontainerright{
+    padding:2% 5%;
+}
+
+.listitem{
+    color:rgb(0, 0, 0);
+    padding-bottom:8px;
+    padding-top:5px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.crightcontainer2{
+    margin-top:5px;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clogin{
+    width: 90%;
+    height: 90%;
+    /* background-color:rgb(72, 72, 72); */
+    margin:auto;
+    border-radius: 3px;
+}
+
+.rheading{
+    color:black;
+    text-align: center;
+    padding-top:15px;
+    font-size:18px;
+    padding-bottom: 20px;
+}
+
+form{
+    font-family: "Poppins";
+    width: 90%;
+    margin-left:40px;
+}
+
+
+form label{
+    display:flex;
+    margin-top:30px;
+    font-size:16px;
+    color:black;
+}
+
+form input{
+    width:80%;
+    padding-bottom: 5px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    outline:none;
+}
+
+.formsubmit{
+    width: 30%;
+    height: 6%;
+    margin-top:20px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border:0px;
+    background-color: #4dc040;
+    font-size:17px;
+    cursor: pointer;
+}
+
+.formsubmit:hover{
+    background-color: green;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:rgb(180, 179, 179) ;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 0, 0,0.7);
+}
+
+.csidecontainer{
+    width:100%;
+}
+
+.navlinkbutton{
+    border:none;
+    width:100%;
+    background:transparent;
+    cursor: pointer;
+}
+.csidecontainerbox{
+    height: 40px;
+    border-radius: 1px;
+    display: flex;
+    padding-top:6px;
+    padding-left:16px;
+    background-color: white;
+    transition:all .5s ease-in;
+}
+
+.csidecontainerbox:hover{
+    border:1px solid rgb(255, 0, 0);
+}
+
+.csidecontainerboxtext{
+    color:green;
+    font-size:15px;
+    font-weight: bold;
+    transition:all .3s ease-in-out;
+}
+
+.csidecontainerboxtext:hover{
+    padding-left:20px;
+    color: red;
+}
+
+.csidecontainerbox a{
+    text-decoration: none;
+}
+
+.sidebarlistitemtext{
+    color:green;
+    font-size:16px;
+    font-weight: 500;
+    transition:all .3s ease;
+}
+
+.sidebarlistitemtext:hover{
+    padding-left: 8px;
+    color:red;
+}
+
+
